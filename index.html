@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator With JS</title>
+    <!-- css  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- tailwind  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+    <header>
+        <h1 class="text-2xl font-bold flex justify-center mt-5">Calculator With JAVASCRIPT</h1>
+    </header>
+    <main>
+        <section class="flex justify-center mt-20 "> 
+            <div class="backGround rounded-2xl ">
+                <div>
+                    <input type="text" class="input-background" id="input-field">
+                </div>
+                <div>
+                    <div class="flex justify-between  p-4 ">
+                        <p class="bg-orange-500 text-white p-4 text-4xl font-bold rounded px-8 " id="multi">*</p>
+                        <p class="bg-orange-500 text-white p-4 text-4xl font-bold rounded px-8" id="divide">/</p>
+                        <p class="bg-orange-500 text-white p-4 text-4xl font-bold rounded px-8" id="minus">-</p>
+                        <p class="bg-orange-500 text-white p-4 text-4xl font-bold rounded px-8" id="sum">+</p>
+                    </div>
+                    <div class="flex justify-between  p-4 ">
+                        <p class="bg-gray-100 text-black p-4 text-4xl font-bold rounded px-8 " id="nine">9</p>
+                        <p class="bg-gray-100 text-black p-4 text-4xl font-bold rounded px-8" id="eight">8</p>
+                        <p class="bg-gray-100 text-black p-4 text-4xl font-bold rounded px-8" id="seven">7</p>
+                        <p class="bg-gray-100 text-black p-4 text-4xl font-bold rounded px-8" id="six">6</p>
+                    </div>
+                    <div class="flex justify-between  p-4 ">
+                        <p class="bg-gray-100 text-black p-4 text-4xl font-bold rounded px-8 " id="five">5</p>
+                        <p class="bg-gray-100 text-black p-4 text-4xl font-bold rounded px-8" id="four">4</p>
+                        <p class="bg-gray-100 text-black p-4 text-4xl font-bold rounded px-8" id="three">3</p>
+                        <p class="bg-gray-100 text-black p-4 text-4xl font-bold rounded px-8"id=two>2</p>
+                    </div>
+                    <div class="flex justify-between  p-4 ">
+                        <p class="bg-gray-100 text-black p-4 text-4xl font-bold rounded px-8 " id="one">1</p>
+                        <p class="bg-gray-100 text-black p-4 text-4xl font-bold rounded px-8" id="zero">0</p>
+                        <p class="bg-gray-100 text-black p-4 text-4xl font-bold rounded px-8" id="point">.</p>
+                        <p class="bg-green-700 text-white p-4 text-4xl font-bold rounded px-8" id="equal">=</p>
+                    </div>
+                    <div class="grid grid-cols-4">
+                        <p class="bg-red-700 text-white p-4 ml-4 mr-2 text-4xl font-bold rounded px-8 " id="clear">C</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+
+    <!-- js script  -->
+    <script src="js/app.js"></script>
+</body>
+</html>
